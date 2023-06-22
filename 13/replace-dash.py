@@ -1,0 +1,8 @@
+file= open('file.txt','r') 
+data = file.read()
+data= data.replace(' ','-')
+print(data)
+file.close()
+file = open('file.txt','w') 
+file.write(data)
+file.close()
