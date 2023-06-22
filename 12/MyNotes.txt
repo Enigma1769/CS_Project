@@ -1,0 +1,5 @@
+Git is a distributed version control system.
+Version control system helps organizations to manage their software.
+Graph algorithms are essential in solving complex problems.
+Python is an interpreted language.
+Guido van Rossum is the creator of Python.
