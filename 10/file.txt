@@ -1,0 +1,3 @@
+This is a sample line.
+This line contains an 'a'.
+This one doesn't.
