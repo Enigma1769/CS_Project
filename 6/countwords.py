@@ -1,12 +1,13 @@
 
-def countwords():
-    characters=[]
-    f= open("Quotes.txt","r")
-    for i in f:
-        while i.is_alnum():
-            if i.is_alpha():
-                characters.append(i)
-    print(characters)
+def countwords(file_name):
+    try:
+        with open(file_name, 'r') as file:
+            r = file.read()
+            words = r.split()
+            print("Total number of words:", len(words)) 
+            print("Total number of characters:", len(r))
+    except FileNotFoundError:
+        print("File not found.")
 
-
-countwords()
+#driver code 
+countwords("Quotes.txt")
